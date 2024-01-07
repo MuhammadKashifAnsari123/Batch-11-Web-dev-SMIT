@@ -1,0 +1,80 @@
+dt>h2{
+   background-color: green;
+   border-radius: 5px;
+   height: 50px;
+}
+h1{
+    background-color: green;
+    border-radius: 5px;
+    height: 100px;
+}
+dd{
+    font-weight: bold;
+}
+
+table{
+    border: 2px solid black;
+   text-align: center;
+}
+
+th{
+    border: 2px solid black;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+td{
+    border: 2px solid black;
+    font-weight: bold;
+  background-color: hsl(117, 30%, 87%);
+  color: black;
+}
+ table td:nth-child(2){
+    background-color: #FFF2CC;
+
+ }
+ h3{
+    background-color: #DAE8FC;
+    color: white;
+ }
+
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 50px;
+    font-weight: bold;
+
+    &:hover  {
+        color: aqua;
+
+    }
+}
+nav ul li a{
+    
+    &:hover  {
+        color: aqua;
+
+    }
+}
+nav {
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+    width: 100%;
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+/* body {
+    border: 5px solid black;
+    padding: 100px;
+} */
